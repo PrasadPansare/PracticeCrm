@@ -13,4 +13,8 @@ public class BrowserActions {
 	public boolean isDisplayed(WebElement element){
 		return element.isDisplayed();
 	}
+	
+	public boolean isEnable(WebElement element){
+		return element.isEnabled();
+	}
 }
